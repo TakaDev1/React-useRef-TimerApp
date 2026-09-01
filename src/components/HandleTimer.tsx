@@ -23,8 +23,18 @@ const HandleTimer = () => {
 
   return (
     <div>
-      <button onClick={startTimer}>タイマースタート</button>
-      <button onClick={stopTimer}>タイマーストップ</button>
+      <button
+        onClick={startTimer}
+        className="p-2 bg-green-500 text-white rounded-xl m-2 cursor-pointer hover:opacity-80 transition"
+      >
+        タイマースタート
+      </button>
+      <button
+        onClick={stopTimer}
+        className="p-2 bg-red-500 text-white rounded-xl m-2 cursor-pointer hover:opacity-80"
+      >
+        タイマーストップ
+      </button>
     </div>
   );
 };
