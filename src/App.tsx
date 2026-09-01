@@ -4,8 +4,10 @@ import HandleTimer from "./components/HandleTimer";
 function App() {
   return (
     <>
-      <h1>React-useRef-TimerApp</h1>
-      <HandleTimer />
+      <div>
+        <h1>React-useRef-TimerApp</h1>
+        <HandleTimer />
+      </div>
     </>
   );
 }
